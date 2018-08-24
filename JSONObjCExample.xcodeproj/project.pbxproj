@@ -14,6 +14,7 @@
 		C6E7CC07212C4A7E0052AF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6E7CC06212C4A7E0052AF17 /* Assets.xcassets */; };
 		C6E7CC0A212C4A7E0052AF17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6E7CC08212C4A7E0052AF17 /* LaunchScreen.storyboard */; };
 		C6E7CC0D212C4A7E0052AF17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E7CC0C212C4A7E0052AF17 /* main.m */; };
+		C6E7CC15212C4E200052AF17 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E7CC14212C4E200052AF17 /* Course.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		C6E7CC09212C4A7E0052AF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6E7CC0B212C4A7E0052AF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6E7CC0C212C4A7E0052AF17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6E7CC13212C4E200052AF17 /* Course.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		C6E7CC14212C4E200052AF17 /* Course.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				C6E7CC0B212C4A7E0052AF17 /* Info.plist */,
 				C6E7CC0C212C4A7E0052AF17 /* main.m */,
 				C6E7CC03212C4A7A0052AF17 /* JSONObjCExample.xcdatamodeld */,
+				C6E7CC13212C4E200052AF17 /* Course.h */,
+				C6E7CC14212C4E200052AF17 /* Course.m */,
 			);
 			path = JSONObjCExample;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 				C6E7CC05212C4A7A0052AF17 /* JSONObjCExample.xcdatamodeld in Sources */,
 				C6E7CC0D212C4A7E0052AF17 /* main.m in Sources */,
 				C6E7CBFC212C4A7A0052AF17 /* AppDelegate.m in Sources */,
+				C6E7CC15212C4E200052AF17 /* Course.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
